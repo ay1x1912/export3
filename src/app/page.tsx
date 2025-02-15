@@ -31,9 +31,9 @@ export default function Home() {
 
  function TopSection(){
   return (
-    <div className="mx-28  flex flex-col lg:flex-row items-center justify-end h-[900px] lg:h-[600px] pt-6 gap-y-6  lg:gap-x-20 ">
-      <div className="flex   flex-col gap-8 w-[800px] ">
-        <h1 className="text-6xl ">
+    <div className="mx-28  flex flex-col items-center justify-center lg:flex-row  h-[900px] lg:h-[600px] pt-6 gap-y-6  lg:gap-x-20 ">
+      <div className="flex  flex-col gap-8 max-w-[800px]  ">
+        <h1 className="text-6xl  ">
         Streamline your export <br /> processes
         </h1>
         <p className="text-3xl font-extralight " >
@@ -43,7 +43,7 @@ export default function Home() {
            <p className="text-lg">Request Demo</p>
             <FaArrowRight /></Button>
       </div>
-      <div className=" 700 grow h-[360px] mb-20  ">
+      <div className=" grow h-[360px] mb-20  ">
       <Image 
       src='/image.webp'
       width={600}
@@ -92,14 +92,14 @@ function ThirdView(){
 function BottomSection(){
   return (
     
-    <div className="h-[400px] mt-40 bg-black flex items-center justify-between">
-     <div className="flex flex-col items-center justify-center gap-2 mx-28">
+    <div className="h-[400px] mt-80 bg-black flex flex-col items-center justify-center lg:flex-row  lg:items-center lg:justify-between">
+     <div className="flex flex-col items-center justify-center gap-2 mx-28  w-full">
      <Link className="flex gap-4  w-full"  href="/" > 
            
           <h1  className="text-3xl text-white font-semibold">Expo</h1>
 
            </Link>
-           <Link className="flex gap-4 items-center "  href="" > 
+           <Link className="flex gap-4 items-center w-full "  href="" > 
            
           <h1  className="text-xl text-white hover:underline ">ayaanmemon1912@gmail.com</h1>
 
@@ -110,7 +110,7 @@ function BottomSection(){
  
             </Link>
      </div>
-     <div className="flex flex-col items-center justify-center gap-2 mx-28">
+     <div className="flex flex-col items-end  gap-2 mx-28   w-full">
      <Link className="flex gap-4 w-full items-center "  href="" > 
            
            <h1  className="text-xl text-white hover:underline ">Why Expo ?</h1>
